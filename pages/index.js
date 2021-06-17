@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import React from 'react'
+import { CalcForm } from '../components/calc'
 
 export default function Home() {
   return (
@@ -11,14 +13,11 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Read{' '}
-          <Link href="/calculator">
-            <a>this page!</a>
-          </Link>
+          Mortgage Calculator
         </h1>
 
         <div className="grid">
-          <div className="card">calculator</div>
+          <CalcForm></CalcForm>
         </div>
       </main>
 
@@ -42,11 +41,11 @@ export default function Home() {
         }
 
         main {
-          padding: 5rem 0;
+          padding: 7rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          //justify-content: center;
           align-items: center;
         }
 

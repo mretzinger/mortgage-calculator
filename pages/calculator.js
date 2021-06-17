@@ -1,6 +1,9 @@
 export default function Calculator() {
-    return <h1>Hello World</h1>
+    return <div>Hi</div>
 }
+
+
+
 //   export function MarCoolComponent(
 //       params = { 
 //           name: "World"
@@ -8,3 +11,4 @@ export default function Calculator() {
 //   ) {
 //     return <h1>Hello {params.name}</h1>
 //   }
+
